@@ -1,6 +1,9 @@
 # VEXO
 
-[![Build Status](https://api.travis-ci.org/Aquariuslt/Blog.svg?branch=VUE)](https://github.com/Aquariuslt/Blog)
+![https://www.npmjs.com/package/vexo](https://img.shields.io/npm/v/vexo.svg)
+![https://github.com/aquariuslt/vexo](https://travis-ci.org/aquariuslt/vexo.svg)
+![https://www.npmjs.com/package/vexo](https://img.shields.io/npm/dm/vexo.svg)
+
 
 Blog Application using Vue Version.
 See:[Blog](https://blog.aquariuslt.com)
