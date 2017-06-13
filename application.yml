@@ -1,0 +1,75 @@
+# This is VEXO Application YML
+# Update your config here
+
+
+# Blog Variables
+blog:
+  name: 'Vexo App'
+  # Avator Relative URL, example: assets/images/avator.png
+  avator: '/assets/imgs/avator.png'
+  author: 'Aquariuslt'
+  description: 'Coder,WoWer'
+  externalLinks:
+    -
+      label: 'Social'
+      prority: 2
+      links:
+        -
+          url: 'https://github.com/aquariuslt'
+          displayName: 'Github'
+          description: 'Github'
+    -
+      label: 'Friend Links'
+      prority: 1
+      links:
+        -
+          displayName: 'wxsm blog'
+          url: 'https://wxsm.space'
+          description: 'Kary Gor博客,前端大神'
+        -
+          displayName: 'lousama'
+          url: 'http://lousama.com'
+          description: '九鼎五百万年终Java大内高手'
+        -
+          displayName: 'NotFound404'
+          url: 'https://github.com/404NoFound'
+          description: '车底良哥'
+
+
+
+  # Hidden Category Lists
+  categories:
+    filter: true
+    hidden:
+      - 'Else'
+
+  tags:
+    filter: true
+    hidden:
+      - 'Diary'
+
+  # Enable About Page
+  about:
+    enable: true
+
+
+  # Disqus Config
+  disqus:
+    enable: true
+    shortName: 'aquariuslt'
+
+  # Progressive Web App
+  pwa:
+    enable: true
+    name: 'Vexo'
+    shortName: 'Vexo'
+    description: 'Vexo'
+    icon: 'favicon.png'
+    developer:
+      name: 'Aquariuslt'
+      url: 'https://github.com/aquariuslt'
+
+# Blog Deploy Options
+# Domain
+# cname: 'blog.aquariuslt.com'
+
